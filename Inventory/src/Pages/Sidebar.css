@@ -1,0 +1,64 @@
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #007bff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  transition: left 0.3s ease-in-out;
+}
+
+/* Sidebar Active */
+.sidebar.active {
+  left: 0;
+}
+
+/* Sidebar Links */
+.sidebar a {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.sidebar a:hover {
+  background: #0056b3;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Hamburger Menu Icon */
+.sidebar-toggle {
+  display: none;
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  background: none;
+  border: none;
+}
+
+/* Responsive Sidebar for Mobile */
+@media (max-width: 768px) {
+  .sidebar-toggle {
+    display: block;
+  }
+}

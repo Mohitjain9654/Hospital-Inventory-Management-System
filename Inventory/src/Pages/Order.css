@@ -1,0 +1,84 @@
+.orders-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.orders-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #00ffae;
+  margin-bottom: 2rem;
+}
+
+.orders-card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 12px rgba(0, 255, 174, 0.1);
+}
+
+.orders-card h3 {
+  font-size: 1.4rem;
+  color: #00ffae;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+input,
+select {
+  margin-top: 0.4rem;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #00ffae;
+  background-color: #121212;
+  color: #f0f0f0;
+  outline: none;
+}
+
+.save-btn {
+  background-color: transparent;
+  border: 2px solid #00ffae;
+  color: #00ffae;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.save-btn:hover {
+  background-color: #00ffae;
+  color: #000;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.orders-table th {
+  background-color: #111;
+  color: #00ffae;
+}
+
+.orders-table tr:hover {
+  background-color: #222;
+}

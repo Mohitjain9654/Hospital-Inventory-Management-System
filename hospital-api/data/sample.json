@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "quantity": 150,
+      "category": "Medicine",
+      "status": "In Stock",
+      "usage": "Pain relief and fever reduction",
+      "stock": 200
+    },
+    {
+      "id": 2,
+      "name": "Syringes",
+      "quantity": 10,
+      "category": "Equipment",
+      "status": "Low Stock",
+      "usage": "Used for injections",
+      "stock": 20
+    }
+  ]

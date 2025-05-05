@@ -1,0 +1,112 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+}
+
+/* Container */
+.home-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #0f0f0f;
+}
+
+/* Dashboard */
+.dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.dashboard h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #00ffae;
+}
+
+/* Stats Cards */
+.stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stat-card {
+  flex: 1 1 250px;
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 255, 174, 0.1);
+  transition: transform 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.stat-card.alert {
+  background-color: #3a1a1a;
+  border-left: 4px solid #ff4c4c;
+}
+
+/* Quick Access */
+.quick-access {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #1a1a1a;
+  color: #00ffae;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #00ffae;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #00ffae;
+  color: #000;
+}
+
+.recent-activity {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 255, 174, 0.1);
+}
+
+.recent-activity h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  color: #00ffae;
+}
+
+.recent-activity p {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
