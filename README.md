@@ -4,8 +4,8 @@ A full-stack web application designed to manage hospital inventory efficiently, 
 
 ## 📁 Project Structure
 
-#├── hospital-api/ # Backend - Node.js, Express, MySQL
-#└── Inventory/ # Frontend - React.js
+├── hospital-api/ # Backend - Node.js, Express, MySQL                                                                                          
+└── Inventory/ # Frontend - React.js                                                                      
 
 
 ---
@@ -47,13 +47,15 @@ npm install
 npm start
 
 ```
-```bash
+
 ###Frontend Setup
+
+```bash
 cd Inventory
 npm install
 npm run dev
 ```
-🙋‍♂️ Author
-# Developed by Mohit Jain
-# 📫 mohitjain965405@gmail.com
-# 🔗 GitHub
+## 🙋‍♂️ Author
+### Developed by Mohit Jain
+### 📫 mohitjain965405@gmail.com
+### 🔗 GitHub
