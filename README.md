@@ -53,3 +53,7 @@ cd Inventory
 npm install
 npm run dev
 ```
+🙋‍♂️ Author
+Developed by Mohit Jain
+📫 mohitjain965405@gmail.com
+🔗 GitHub
