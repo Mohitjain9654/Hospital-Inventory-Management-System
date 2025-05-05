@@ -46,8 +46,10 @@ npm install
 # Setup .env with DB credentials
 npm start
 
-Frontend Setup
+```
+```bash
+###Frontend Setup
 cd Inventory
 npm install
 npm run dev
-
+```
