@@ -27,7 +27,7 @@ A full-stack web application designed to manage hospital inventory efficiently, 
 **Frontend:**  
 - React.js  
 - Axios  
-- Tailwind CSS
+- CSS
 
 **Backend:**  
 - Node.js  
