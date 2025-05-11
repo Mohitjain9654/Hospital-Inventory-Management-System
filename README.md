@@ -4,7 +4,7 @@ A full-stack web application designed to manage hospital inventory efficiently, 
 
 ## 📁 Project Structure
 
-├── hospital-api/ # Backend - Node.js, Express, MySQL                                                                                          
+├── hospital-api/ # Backend - Node.js, Express                                                                                    
 └── Inventory/ # Frontend - React.js                                                                      
 
 
@@ -27,12 +27,11 @@ A full-stack web application designed to manage hospital inventory efficiently, 
 **Frontend:**  
 - React.js  
 - Axios  
-- Bootstrap / Tailwind CSS
+- Tailwind CSS
 
 **Backend:**  
 - Node.js  
-- Express.js  
-- MySQL  
+- Express.js
 - RESTful API
 
 
